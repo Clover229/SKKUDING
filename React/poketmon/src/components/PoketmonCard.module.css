@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    align-items:center;
+    gap: 1rem;
+    padding:30px;
+    /* height: 10rem; */
+    color: white;
+    height: fit-content;
+    
+    flex: 0 1 calc(75% - 20px);
+    margin: 10px; /*마진을 auto에서 이거로 바꿨더니 알아서 반응형이 되는데..?머지*/
+    padding: 20px;
+    border: 1px solid rgb(247, 196, 55);
+    border-radius: 2cap;
+    text-decoration: none;
+}
+.card img {
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    left: 10px;
+
+}
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    position:relative;
+    left: 20px;
+    bottom:15px;
+    gap: 2px;
+    
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.info-wrapper>div{
+    color: #bbb;
+}

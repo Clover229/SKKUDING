@@ -1,0 +1,7 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(350px, 30%));
+  grid-auto-rows: minmax(150px, auto);
+  place-content: center;
+  padding: 2rem 1rem;
+}

@@ -1,0 +1,21 @@
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.imgbox {
+  height: 30rem;
+  margin: auto; /*auto값은 좌우여백같이*/
+  border-radius: 100%;
+  border: 3px solid rgb(247, 196, 55);
+  overflow: hidden;
+}
+.profile {
+  object-fit: cover;
+}
